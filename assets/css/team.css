@@ -280,8 +280,11 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 2rem;
-            margin: 4rem 0;
-            padding: 0 2rem;
+            /* margin: 4rem 0; */
+            /* padding: 0 2rem; */
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
         }
 
         .stat-card {
@@ -1236,6 +1239,11 @@
                 flex-direction: column;
                 gap: 1rem;
             }
+            .team-container{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 !important;
+            }
         }
 
         /* Demo styles to show the footer */
@@ -1251,4 +1259,11 @@
             text-align: center;
             color: rgba(255, 255, 255, 0.7);
             font-size: 1.2rem;
+        }
+
+
+        .team-container{
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 6rem 2rem 2rem;
         }
